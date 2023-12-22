@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PeetMee | Pet Adoption</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- Navbar Section starts here -->
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand p-0 me-0 me-lg-2" href="/" aria-label="PetMee">
+        <img src="https://i.ibb.co/GWtDHHc/Pet-Mee-logo.jpg" width="70" height="55" class="d-block my-1" viewBox="0 0 120 95" role="img">
+        <title>PetMee</title></img>
+      </a>
+      <a class="navbar-brand" href="#">PetMee</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pet_lovers">Pet Lovers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pet_owners">Pet Owners</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/register">Sign In</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar Section ends here -->
+
+  <!-- Search bar section starts here -->
+  <section class="search text-center ">
+    <div class="container-fluid">
+      <form class="flex" role="search" method="post">
+        <input type="search" name="search" placeholder="Search for pets..." required>
+        <input type="submit" name="submit" value="Search" class="btn btn-primary">
+      </form>
+    </div>
+  </section>
+  <!-- Search section ends here -->
+
+  <!-- Carousel Section starts here -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/1000x500/?pets,dogs" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Do You Know ?</h5>
+          <p>Their sense of smell is at least 40x better than ours.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1000x500/?pets,hamster" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Do You Know ?</h5>
+          <p>Hamsters like to sleep in enclosed spaces.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1000x500/?pets,cats" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Do You Know ?</h5>
+          <p>A house cat can reach speeds of up to 30mph.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Carousel Section ends here -->
+
+  <div class="container px-4 text-center">
+    <div class="row gx-5">
+      <div class="col">
+        <div class="p-3 border bg-light " style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><h1>CATEGORIES</h1></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card Section starts here -->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://i.ibb.co/NVxSVQj/1.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cats</h5>
+          <p class="card-text">A cat's rear end in your face is a gesture of friendship, while kneading means happiness.
+            Draping their tail over another cat/dog/you means friendship also.</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://i.ibb.co/sbqPsbq/2.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dogs</h5>
+          <p class="card-text">Some have such good noses they can sniff out medical problems.</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://i.ibb.co/3sD9XRH/4.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rabbits</h5>
+          <p class="card-text">Rabbits perform an athletic leap, known as a 'binky', when they're happy — performing
+            twists and kicks in mid air!</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://i.ibb.co/Bf3GrJv/3.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Parrots</h5>
+          <p class="card-text">Some Parrots Grind Their Own Calcium Supplements.</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://i.ibb.co/CtQ1DYv/6.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fishes</h5>
+          <p class="card-text">What is the loudest fish? The answer is, the croaker.</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://i.ibb.co/brjzZP5/5.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hamster</h5>
+          <p class="card-text">Hamsters generally enjoy the companionship of their pet parent and love to be let out of
+            their habitat to play. Enhance their fun by constructing a maze for them to navigate, getting a hamster ball
+            or putting them in a safe, enclosed area with hamster toys.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Card Section ends here -->
+
+  <!-- Footer Section starts here -->
+  <footer class="bd-footer py-4 py-md-5 mt-5 bg-light">
+    <div class="container py-4 py-md-5 px-4 px-md-3">
+      <div class="row">
+        <div class="col-lg-3 mb-3">
+          <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/"
+            aria-label="Bootstrap">
+            <img src="https://i.ibb.co/GWtDHHc/Pet-Mee-logo.jpg" width="70" height="55" class="d-block my-1" viewBox="0 0 120 95" role="img">
+            <title>PetMee</title>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+              fill="currentColor"></path>
+            </svg>
+            <span class="fs-5">PetMee</span>
+          </a>
+          <ul class="list-unstyled small text-muted">
+            <li class="mb-2">Designed and built with all the love in the world by the <a
+                href="/docs/5.2/about/team/">PetMee team</a> with the help of <a
+                href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</li>
+            <li class="mb-2">Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE" target="_blank"
+                rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/"
+                target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
+            <li class="mb-2">Currently v5.2.3.</li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+          <h5>Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="/">Home</a></li>
+            <li class="mb-2"><a href="pet_lovers.html">Pet Lovers</a></li>
+            <li class="mb-2"><a href="/docs/5.2/examples/">Pet Owners</a></li>
+            <li class="mb-2"><a href="https://icons.getbootstrap.com/">Categories</a></li>
+            <li class="mb-2"><a href="login.html">Login</a></li>
+            <li class="mb-2"><a href="signin.html">SignUp</a></li>
+            <li class="mb-2"><a href="https://cottonbureau.com/people/bootstrap">My Appointments</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>About Us</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="/docs/5.2/getting-started/">How it started</a></li>
+            <li class="mb-2"><a href="/docs/5.2/examples/starter-template/">Challenges</a></li>
+            <li class="mb-2"><a href="/docs/5.2/getting-started/webpack/">Public Reviews</a></li>
+            <li class="mb-2"><a href="/docs/5.2/getting-started/parcel/">Parcel</a></li>
+
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Contact Us</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Facebook</a></li>
+            <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Instagram</a></li>
+            <li class="mb-2"><a href="https://github.com/twbs/icons">Gmail</a></li>
+            <li class="mb-2"><a href="https://github.com/twbs/icons">Twitter</a></li>
+            <li class="mb-2"><a href="https://github.com/twbs/rfs">Write for us</a></li>
+
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Community</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
+            <li class="mb-2"><a href="https://github.com/twbs/bootstrap/discussions">Discussions</a></li>
+            <li class="mb-2"><a href="https://github.com/sponsors/twbs">Corporate sponsors</a></li>
+            <li class="mb-2"><a href="https://opencollective.com/bootstrap">Open Collective</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>© 2020-2021 PetMee Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer>
+  <!-- Footer Section ends here -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

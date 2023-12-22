@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <style>
+        body{
+            background-image: url("https://i.ibb.co/XCQc94c/pet.jpg");
+            background-size: cover;
+            
+        }
+    </style>
+</head>
+{{!-- <body background= "C:\Users\tanis\OneDrive\Desktop\Mnior\attachments\templates\images"> --}}
+    <body>
+    <div id="login_signup" style="border: solid black 3px; height: 50%; width: 50%; margin: 25%; text-align: center; background-color: blanchedalmond; opacity: 0.6;">
+        <form action="/register" method="POST">
+            <h3>Name : <input type="text" name="name" required ></h3>
+            <br>
+            <h3>Email : <input type="email" name = "email" required ></h3>
+            <br>
+            <h3>Password : <input type="password" name="password" required></h3>
+            <br>
+            <center><input type="submit" name="Submit" ></center>
+            <br>
+        </form>
+    </div>
+</body>
+</html>
